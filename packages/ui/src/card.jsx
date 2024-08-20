@@ -1,14 +1,4 @@
-export function Card({
-  className,
-  title,
-  children,
-  href,
-}: {
-  className?: string;
-  title: string;
-  children: React.ReactNode;
-  href: string;
-}): JSX.Element {
+export function Card({ className, title, children, href }) {
   return (
     <a
       className={className}
